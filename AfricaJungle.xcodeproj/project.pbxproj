@@ -13,6 +13,10 @@
 		6E474D8F280EF56300C9411F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6E474D8E280EF56300C9411F /* Preview Assets.xcassets */; };
 		6E474D96280EF6E800C9411F /* CenterModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E474D95280EF6E800C9411F /* CenterModifier.swift */; };
 		6E474D99280EF72400C9411F /* CodableBundleExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E474D98280EF72400C9411F /* CodableBundleExtension.swift */; };
+		6E474D9F280EF7BE00C9411F /* videos.json in Resources */ = {isa = PBXBuildFile; fileRef = 6E474D9B280EF7BE00C9411F /* videos.json */; };
+		6E474DA0280EF7BE00C9411F /* animals.json in Resources */ = {isa = PBXBuildFile; fileRef = 6E474D9C280EF7BE00C9411F /* animals.json */; };
+		6E474DA1280EF7BE00C9411F /* locations.json in Resources */ = {isa = PBXBuildFile; fileRef = 6E474D9D280EF7BE00C9411F /* locations.json */; };
+		6E474DA2280EF7BE00C9411F /* covers.json in Resources */ = {isa = PBXBuildFile; fileRef = 6E474D9E280EF7BE00C9411F /* covers.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +27,10 @@
 		6E474D8E280EF56300C9411F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		6E474D95280EF6E800C9411F /* CenterModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CenterModifier.swift; sourceTree = "<group>"; };
 		6E474D98280EF72400C9411F /* CodableBundleExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodableBundleExtension.swift; sourceTree = "<group>"; };
+		6E474D9B280EF7BE00C9411F /* videos.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = videos.json; sourceTree = "<group>"; };
+		6E474D9C280EF7BE00C9411F /* animals.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = animals.json; sourceTree = "<group>"; };
+		6E474D9D280EF7BE00C9411F /* locations.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = locations.json; sourceTree = "<group>"; };
+		6E474D9E280EF7BE00C9411F /* covers.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = covers.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,13 +63,13 @@
 		6E474D86280EF55F00C9411F /* AfricaJungle */ = {
 			isa = PBXGroup;
 			children = (
+				6E474DA3280EF7D000C9411F /* Data */,
+				6E474D9A280EF77800C9411F /* Extension */,
 				6E474D97280EF6F900C9411F /* Modifier */,
 				6E474D87280EF55F00C9411F /* AfricaJungleApp.swift */,
 				6E474D89280EF55F00C9411F /* ContentView.swift */,
 				6E474D8B280EF56300C9411F /* Assets.xcassets */,
 				6E474D8D280EF56300C9411F /* Preview Content */,
-				6E474D95280EF6E800C9411F /* CenterModifier.swift */,
-				6E474D98280EF72400C9411F /* CodableBundleExtension.swift */,
 			);
 			path = AfricaJungle;
 			sourceTree = "<group>";
@@ -77,8 +85,28 @@
 		6E474D97280EF6F900C9411F /* Modifier */ = {
 			isa = PBXGroup;
 			children = (
+				6E474D95280EF6E800C9411F /* CenterModifier.swift */,
 			);
 			path = Modifier;
+			sourceTree = "<group>";
+		};
+		6E474D9A280EF77800C9411F /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				6E474D98280EF72400C9411F /* CodableBundleExtension.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		6E474DA3280EF7D000C9411F /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				6E474D9C280EF7BE00C9411F /* animals.json */,
+				6E474D9E280EF7BE00C9411F /* covers.json */,
+				6E474D9D280EF7BE00C9411F /* locations.json */,
+				6E474D9B280EF7BE00C9411F /* videos.json */,
+			);
+			path = Data;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -140,7 +168,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				6E474D8F280EF56300C9411F /* Preview Assets.xcassets in Resources */,
+				6E474DA2280EF7BE00C9411F /* covers.json in Resources */,
+				6E474DA0280EF7BE00C9411F /* animals.json in Resources */,
+				6E474DA1280EF7BE00C9411F /* locations.json in Resources */,
 				6E474D8C280EF56300C9411F /* Assets.xcassets in Resources */,
+				6E474D9F280EF7BE00C9411F /* videos.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

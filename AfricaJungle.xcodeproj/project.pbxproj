@@ -17,6 +17,7 @@
 		6E474DA0280EF7BE00C9411F /* animals.json in Resources */ = {isa = PBXBuildFile; fileRef = 6E474D9C280EF7BE00C9411F /* animals.json */; };
 		6E474DA1280EF7BE00C9411F /* locations.json in Resources */ = {isa = PBXBuildFile; fileRef = 6E474D9D280EF7BE00C9411F /* locations.json */; };
 		6E474DA2280EF7BE00C9411F /* covers.json in Resources */ = {isa = PBXBuildFile; fileRef = 6E474D9E280EF7BE00C9411F /* covers.json */; };
+		6E474DA5280EFA8E00C9411F /* Video in Resources */ = {isa = PBXBuildFile; fileRef = 6E474DA4280EFA8E00C9411F /* Video */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +32,7 @@
 		6E474D9C280EF7BE00C9411F /* animals.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = animals.json; sourceTree = "<group>"; };
 		6E474D9D280EF7BE00C9411F /* locations.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = locations.json; sourceTree = "<group>"; };
 		6E474D9E280EF7BE00C9411F /* covers.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = covers.json; sourceTree = "<group>"; };
+		6E474DA4280EFA8E00C9411F /* Video */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Video; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 		6E474D86280EF55F00C9411F /* AfricaJungle */ = {
 			isa = PBXGroup;
 			children = (
+				6E474DA4280EFA8E00C9411F /* Video */,
 				6E474DA3280EF7D000C9411F /* Data */,
 				6E474D9A280EF77800C9411F /* Extension */,
 				6E474D97280EF6F900C9411F /* Modifier */,
@@ -173,6 +176,7 @@
 				6E474DA1280EF7BE00C9411F /* locations.json in Resources */,
 				6E474D8C280EF56300C9411F /* Assets.xcassets in Resources */,
 				6E474D9F280EF7BE00C9411F /* videos.json in Resources */,
+				6E474DA5280EFA8E00C9411F /* Video in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -15,7 +15,6 @@ struct CreditView: View {
                 .scaledToFit()
                 .frame(width: 128, height: 128)
             Text("""
-All rights reserved
 Better Apps ❤️ Less Code
 """)
             .font(.footnote)

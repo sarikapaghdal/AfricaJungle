@@ -51,7 +51,7 @@
 		6E902231281008D300C985E5 /* rhino.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 6E9022232810086600C985E5 /* rhino.mp4 */; };
 		6E902232281008D600C985E5 /* zebra.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 6E9022262810086700C985E5 /* zebra.mp4 */; };
 		6E902233281008D800C985E5 /* elephant.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 6E9022222810085600C985E5 /* elephant.mp4 */; };
-		6E90223B281009A200C985E5 /* lioness.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 6E90223A281009A200C985E5 /* lioness.mp4 */; };
+		6E90228528182EAD00C985E5 /* lioness.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 6E90223C281009AB00C985E5 /* lioness.mp4 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -127,7 +127,6 @@
 		6E9022282810086800C985E5 /* lion.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = lion.mp4; sourceTree = "<group>"; };
 		6E9022292810086900C985E5 /* giraffe.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = giraffe.mp4; sourceTree = "<group>"; };
 		6E90222A281008C000C985E5 /* cheetah.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = cheetah.mp4; sourceTree = "<group>"; };
-		6E90223A281009A200C985E5 /* lioness.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; name = lioness.mp4; path = "../../../Library/Mobile Documents/com~apple~CloudDocs/.Trash/lioness.mp4"; sourceTree = "<group>"; };
 		6E90223C281009AB00C985E5 /* lioness.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = lioness.mp4; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -145,7 +144,6 @@
 		6E474D7B280EF55F00C9411F = {
 			isa = PBXGroup;
 			children = (
-				6E90223A281009A200C985E5 /* lioness.mp4 */,
 				6E474D86280EF55F00C9411F /* AfricaJungle */,
 				6E474DDD280F07A500C9411F /* Stickers */,
 				6E474D85280EF55F00C9411F /* Products */,
@@ -373,13 +371,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6E90223B281009A200C985E5 /* lioness.mp4 in Resources */,
 				6E90222E281008CB00C985E5 /* hippo.mp4 in Resources */,
 				6E474D8F280EF56300C9411F /* Preview Assets.xcassets in Resources */,
 				6E90222D281008C900C985E5 /* gorilla.mp4 in Resources */,
 				6E474DA2280EF7BE00C9411F /* covers.json in Resources */,
 				6E474DA0280EF7BE00C9411F /* animals.json in Resources */,
 				6E474DA1280EF7BE00C9411F /* locations.json in Resources */,
+				6E90228528182EAD00C985E5 /* lioness.mp4 in Resources */,
 				6E902230281008D100C985E5 /* ostrich.mp4 in Resources */,
 				6E902231281008D300C985E5 /* rhino.mp4 in Resources */,
 				6E902233281008D800C985E5 /* elephant.mp4 in Resources */,
